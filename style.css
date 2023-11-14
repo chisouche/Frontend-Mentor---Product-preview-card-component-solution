@@ -135,20 +135,37 @@ svg{
 }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+
+
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 375px) {
     body {
-        
         font-size: 14px; 
     }
 
     .container {
-        flex-direction: row;
+        flex-direction: column;
+        max-height: none; 
     }
 
     .image,
     .side_two {
         width: 100%;
+        border-radius: 0; 
+    }
+
+    .image {
+        border-bottom-left-radius: 0; 
+        border-bottom-right-radius: 0;
+    }
+
+    .side_two {
+        border-top-left-radius: 0; 
+        border-top-right-radius: 0;
+    }
+
+    .content_two {
+        margin-top: 20px; 
     }
 
     .attribution {
@@ -158,7 +175,9 @@ svg{
         width: 100%;
         text-align: center; 
         padding: 10px;
-        }
-
-        .attribution a { color: hsl(228, 45%, 44%); }
     }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+}
