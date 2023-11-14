@@ -138,12 +138,10 @@ svg{
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 600px) {
     body {
+        
         font-size: 14px; 
     }
 
-    .container {
-        flex-direction: column;
-    }
 
     .image,
     .side_two {
@@ -157,6 +155,8 @@ svg{
         width: 100%;
         text-align: center; 
         padding: 10px;
+        padding: 10px; /* Add some padding for better aesthetics */
+
         }
 
         .attribution a { color: hsl(228, 45%, 44%); }
