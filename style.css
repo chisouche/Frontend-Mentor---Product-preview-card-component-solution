@@ -135,9 +135,18 @@ svg{
 }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-
-@media only screen and (max-width: 768px) {
-    .side_two {
-      display: none; /* Hide the text side on smaller screens */
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px; 
     }
-}
+  
+    .container {
+      flex-direction: column;
+    }
+  
+    .image,
+    .side_two {
+      width: 100%;
+    }
+  }
