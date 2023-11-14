@@ -144,6 +144,7 @@ svg{
     }
 
     .container {
+        display: flex;
         flex-direction: column;
         max-height: none; 
     }
