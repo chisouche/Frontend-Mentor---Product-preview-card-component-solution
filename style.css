@@ -142,7 +142,9 @@ svg{
         font-size: 14px; 
     }
 
-
+    .container {
+        flex-direction: row;
+    }
 
     .image,
     .side_two {
