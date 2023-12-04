@@ -66,7 +66,7 @@ Focus on understand responsive design and perfecting creating them.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Portfolio](https://frontend-mentor-product-preview-card-component-solution-yqgm.vercel.app/)
 - Frontend Mentor - [@chisouche](https://www.frontendmentor.io/profile/chisouche)
 - Twitter - [@spacerjace](https://twitter.com/spacerjacee)
 
